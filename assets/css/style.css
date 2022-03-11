@@ -69,7 +69,7 @@ body {
 }
 .active a {
   /* color: rgb(208, 195, 15); */
-  color: #ff8181 !important;
+  color: red !important;
 }
 #dashboard {
   height: 100%;
@@ -280,5 +280,5 @@ body {
   display: none;
 }
 #page-link-ul li:not(.active) a:hover {
-  text-shadow: 4px 3px 3px #FF0000;
+  text-shadow: 4px 3px 3px #d60000;
 }
