@@ -279,3 +279,6 @@ body {
 #katawa {
   display: none;
 }
+#page-link-ul li:not(.active) a:hover {
+  text-shadow: 4px 3px 3px #FF0000;
+}
