@@ -14,22 +14,25 @@ function linkActive(event) {
 var index = 0
 function nextPage() {
     var totalPages = document.getElementsByClassName('stories-container').length
+    var currDisp = document.getElementsByClassName('stories-container')[index].style.display
+    console.log(currDisp)
     document.getElementsByClassName('stories-container')[index].style.display = 'none';
     if (totalPages - 1 == index) {
         index = 0
     } else {
         index ++
     }
-    document.getElementsByClassName('stories-container')[index].style.display = 'inline-flex';
+    document.getElementsByClassName('stories-container')[index].style.display = currDisp;
 }
 
 function prevPage() {
     var totalPages = document.getElementsByClassName('stories-container').length
+    var currDisp = document.getElementsByClassName('stories-container')[index].style.display
     document.getElementsByClassName('stories-container')[index].style.display = 'none';
     if (index == 0) {
         index = totalPages -1 
     } else {
         index --
     }
-    document.getElementsByClassName('stories-container')[index].style.display = 'inline-flex';
+    document.getElementsByClassName('stories-container')[index].style.display = currDisp;
 }
