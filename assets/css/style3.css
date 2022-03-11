@@ -36,6 +36,10 @@ header {
   background: black;
   z-index: 9999;
 }
+
+.page-link i {
+  display:none;
+}
 .top {
   width: 100%;
   height: 100px;
@@ -356,6 +360,9 @@ body {
   #overview p {
     font-size: 10px;
   }
+  #stories {
+    /* padding-bottom: 700px; */
+  }
 
   #faq-gg {
     padding-bottom: 800px;
@@ -467,42 +474,61 @@ body {
   #scarelyu-logo {
     display: none;
   }
-  .top {
-    gap: 0 !important;
-    height: 60px;
+  .page-link span {
+    display:none;
   }
-  #overview,
-  #stories,
-  #faq-gg {
-    padding-bottom: 15px !important;
-    height: fit-content !important;
+  .page-link i {
+    display:block;
+  }
+  .page-link {
+    width: 16.6666;
+  }
+  #page-link-ul {
+    width:100%;
+  }
+  #page-link-ul li {
+    width: 16.66667%;
+    text-align: center;
+  }
+  #contact-us {
+    padding-bottom: 90px!important;
+  }
+  .top {
+    gap: 0!important;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background: black;
+  }
+  #overview, #stories, #faq-gg {
+    padding-bottom: 15px!important;
+    height:fit-content!important;
     text-align: center;
   }
   .show-more {
-    /* text-align: center; */
-    margin: 10px 0;
+     /* text-align: center; */
+     margin: 10px 0;
   }
-  #stories, #places, #overview, #faq-gg {
-    padding-top: 65px;
-  }
-  .places-lbl,
-  .faq-lbl {
+  .places-lbl, .faq-lbl {
     text-align: center;
   }
   #overview h1 {
     font-size: 2rem;
   }
   .btn-event-options {
-    float: none !important;
-    margin-top: 30px !important;
+    float: none!important;
+    margin-top: 30px!important;
   }
   .stories-container {
-    padding-top: 40px !important;
+    padding-top: 40px!important;
     display: block;
   }
 
   #overview p {
     font-size: 10px;
+  }
+  #stories {
+    /* padding-bottom: 800px; */
   }
 
   #faq-gg {
