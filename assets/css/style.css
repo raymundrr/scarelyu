@@ -101,7 +101,8 @@ body {
   padding: 122px 12% 0px 12%;
   /* padding: 122px 100px 0px 100px!important; */
 }
-#overview h1, .faq-lbl {
+#overview h1,
+.faq-lbl {
   font-size: 3.5rem;
   color: red;
   font-family: "meltedMonster";
@@ -138,7 +139,7 @@ body {
 }
 .stories-toggler button.next {
   float: right;
-  cursor:pointer;
+  cursor: pointer;
 }
 .stories-toggler button.previous:hover {
   padding-left: 10px;
@@ -269,8 +270,12 @@ body {
 }
 
 @keyframes fadeInAnimationofKwa {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .stories-container {
   -webkit-animation: fadeInAnimationofKwa 1s;
@@ -281,4 +286,238 @@ body {
 }
 #page-link-ul li:not(.active) a:hover {
   text-shadow: 4px 3px 3px #d60000;
+}
+
+@media (max-width: 1090px) {
+  .top ul li {
+    font-size: 17px;
+  }
+  #scarelyu-logo {
+    width: 75px;
+  }
+  .welcome {
+    font-size: 2rem;
+  }
+  .welcome-pic {
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
+  .stories-lbl {
+    font-size: 2.5rem;
+  }
+
+  .btn-event-options a {
+    border: 1px solid red;
+    padding: 8px 15px 10px 15px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .story-image img {
+    width: 400px;
+  }
+  .story-content .content {
+    max-height: 350px;
+    overflow: hidden;
+  }
+  .story-content h1 {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .content p {
+    font-size: 10px;
+  }
+  .show-more {
+    margin-top: 2px;
+    text-align: right;
+  }
+  .show-more button {
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid red;
+  }
+
+  .stories-toggler button {
+    padding: 7px 15px;
+    font-size: 15px;
+    width: 150px;
+  }
+  .places-lbl {
+    font-size: 2.5rem;
+  }
+  #overview {
+    padding-bottom: 700px;
+  }
+
+  #overview p {
+    font-size: 10px;
+  }
+  #stories {
+    padding-bottom: 700px;
+  }
+
+  #faq-gg {
+    padding-bottom: 800px;
+  }
+
+  .faq-lbl {
+    font-size: 2.5rem;
+  }
+
+  .faq h2 {
+    font-size: 15px;
+  }
+  .faq p {
+    font-size: 10px;
+  }
+  #contact-us {
+    padding: 20px;
+    margin-top: 70px;
+  }
+  #contact-us h2 {
+    font-size: 15px;
+  }
+
+  #contact-us p {
+    font-size: 12px;
+  }
+  .footer .contact {
+    gap: 70px;
+  }
+  .copyright {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+  .mt-10 {
+    margin-top: 10px;
+  }
+  #complogo {
+    width: 150px;
+  }
+  .logo span {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 725px) {
+  .top ul li {
+    font-size: 15px;
+  }
+  #scarelyu-logo {
+    width: 60px;
+  }
+  .welcome {
+    font-size: 1.5rem;
+  }
+  .welcome-pic {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .stories-lbl {
+    font-size: 2rem;
+  }
+
+  .btn-event-options a {
+    border: 1px solid red;
+    padding: 8px 15px 10px 15px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .story-image img {
+    width: 200px;
+  }
+  .story-content .content {
+    max-height: 350px;
+    overflow: hidden;
+  }
+  .story-content h1 {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .content p {
+    font-size: 8px;
+  }
+  .show-more {
+    margin-top: 2px;
+    text-align: right;
+  }
+  .show-more button {
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid red;
+  }
+
+  .stories-toggler button {
+    padding: 7px 15px;
+    font-size: 15px;
+    width: 150px;
+  }
+  .places-lbl {
+    font-size: 2rem;
+  }
+  #overview {
+    padding-bottom: 700px;
+  }
+
+  #overview p {
+    font-size: 10px;
+  }
+  #stories {
+    padding-bottom: 700px;
+  }
+
+  #faq-gg {
+    padding-bottom: 800px;
+  }
+
+  .faq-lbl {
+    font-size: 2rem;
+  }
+
+  .faq h2 {
+    font-size: 12px;
+  }
+  .faq p {
+    font-size: 10px;
+  }
+  #contact-us {
+    padding: 20px;
+    margin-top: 70px;
+  }
+  #contact-us h2 {
+    font-size: 12px;
+  }
+
+  #contact-us p {
+    font-size: 11px;
+  }
+  .footer .contact {
+    gap: 70px;
+  }
+  .copyright {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+  }
+  .mt-10 {
+    margin-top: 10px;
+  }
+  #complogo {
+    width: 100px;
+  }
+  .logo span {
+    font-size: 20px;
+  }
 }
