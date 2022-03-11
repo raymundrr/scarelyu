@@ -281,9 +281,9 @@ body {
   -webkit-animation: fadeInAnimationofKwa 1s;
   animation: fadeInAnimationofKwa 1s;
 }
-#katawa {
+/* #katawa {
   display: none;
-}
+} */
 #page-link-ul li:not(.active) a:hover {
   text-shadow: 4px 3px 3px #d60000;
 }
@@ -482,7 +482,10 @@ body {
     /* text-align: center; */
     margin: 10px 0;
   }
-  #stories, #places, #overview, #faq-gg {
+  #stories,
+  #places,
+  #overview,
+  #faq-gg {
     padding-top: 65px;
   }
   .places-lbl,
