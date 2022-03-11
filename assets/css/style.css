@@ -101,7 +101,7 @@ body {
   padding: 122px 12% 0px 12%;
   /* padding: 122px 100px 0px 100px!important; */
 }
-#overview h1 {
+#overview h1, .faq-lbl {
   font-size: 3.5rem;
   color: red;
   font-family: "meltedMonster";
