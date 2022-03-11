@@ -357,7 +357,7 @@ body {
     font-size: 10px;
   }
   #stories {
-    padding-bottom: 700px;
+    /* padding-bottom: 700px; */
   }
 
   #faq-gg {
@@ -438,6 +438,7 @@ body {
   }
   .story-content .content {
     max-height: 350px;
+
     overflow: hidden;
   }
   .story-content h1 {
@@ -467,18 +468,18 @@ body {
     font-size: 2rem;
   }
   #overview {
-    padding-bottom: 700px;
+    padding-bottom: 800px;
   }
 
   #overview p {
     font-size: 10px;
   }
   #stories {
-    padding-bottom: 700px;
+    /* padding-bottom: 800px; */
   }
 
   #faq-gg {
-    padding-bottom: 800px;
+    padding-bottom: 900px;
   }
 
   .faq-lbl {
