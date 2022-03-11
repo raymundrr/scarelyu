@@ -95,12 +95,18 @@ body {
 }
 #stories,
 #places,
+#overview,
 #faq-gg {
   height: 100%;
   padding: 122px 12% 0px 12%;
   /* padding: 122px 100px 0px 100px!important; */
 }
-
+#overview h1 {
+  font-size: 3.5rem;
+  color: red;
+  font-family: "meltedMonster";
+  margin-bottom: 50px;
+}
 #places {
   padding-bottom: 100px;
 }
