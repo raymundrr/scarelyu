@@ -356,9 +356,6 @@ body {
   #overview p {
     font-size: 10px;
   }
-  #stories {
-    /* padding-bottom: 700px; */
-  }
 
   #faq-gg {
     padding-bottom: 800px;
@@ -471,37 +468,37 @@ body {
     display: none;
   }
   .top {
-    gap: 0!important
+    gap: 0 !important;
   }
-  #overview, #stories, #faq-gg {
-    padding-bottom: 15px!important;
-    height:fit-content!important;
+  #overview,
+  #stories,
+  #faq-gg {
+    padding-bottom: 15px !important;
+    height: fit-content !important;
     text-align: center;
   }
   .show-more {
-     /* text-align: center; */
-     margin: 10px 0;
+    /* text-align: center; */
+    margin: 10px 0;
   }
-  .places-lbl, .faq-lbl {
+  .places-lbl,
+  .faq-lbl {
     text-align: center;
   }
   #overview h1 {
     font-size: 2rem;
   }
   .btn-event-options {
-    float: none!important;
-    margin-top: 30px!important;
+    float: none !important;
+    margin-top: 30px !important;
   }
   .stories-container {
-    padding-top: 40px!important;
+    padding-top: 40px !important;
     display: block;
   }
 
   #overview p {
     font-size: 10px;
-  }
-  #stories {
-    /* padding-bottom: 800px; */
   }
 
   #faq-gg {
